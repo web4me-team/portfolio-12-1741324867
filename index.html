@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Tech Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="overlay"></div>
+    
+    <header>
+        <div class="terminal-nav">
+            <div class="terminal-prompt">
+                <span class="terminal-user">user@portfolio</span>:<span class="terminal-path">~/resume</span>$ <span class="terminal-cursor">_</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#education">education</a></li>
+                    <li><a href="#experience">experience</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="glitch-wrapper">
+                    <h1 class="glitch" data-text="HARPER (CHENYE) QI">HARPER (CHENYE) QI</h1>
+                </div>
+                <h2 class="subtitle">SOFTWARE DEVELOPER <span class="accent">|</span> RESEARCHER <span class="accent">|</span> INNOVATOR</h2>
+                <div class="hero-description">
+                    <!-- do not change below line -->
+                    <p>Exploring <span class="highlight">complex problems</span> through <span class="highlight">innovative research</span></p>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/harper-qi-b95726197/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:harperchenyeqi@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> About Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Harper Qi is a skilled software developer with a strong foundation in computer science and mathematics. With experience in software engineering and research development, Harper has contributed to significant projects in automation testing, user outreach platforms, and wellness data collection apps. Proficient in multiple programming languages and frameworks, Harper has demonstrated expertise in optimizing algorithms and enhancing data security.</p>
+                        
+                        <div class="terminal-box">
+                            <div class="terminal-header">
+                                <span class="terminal-dot red"></span>
+                                <span class="terminal-dot yellow"></span>
+                                <span class="terminal-dot green"></span>
+                                <span class="terminal-title">harper@research:~</span>
+                            </div>
+                            <div class="terminal-body">
+                                <p><span class="command">$ cat contact_info.txt</span></p>
+                                <p>Email: harperchenyeqi@gmail.com</p>
+                                <p>Phone: +1 (314) 285-3211</p>
+                                <p>Location: Bellevue, WA 98004</p>
+                                <p><span class="command">$ cat research_interests.txt</span></p>
+                                <div id="research-interests-container">
+                                    <p>Spike Sorting Algorithms: Optimizing feature extraction and automating data filtering and spike detection processes to reduce human error.</p>
+                                </div>
+                                <p><span class="command">$</span><span class="terminal-cursor">_</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Education</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="education-container" id="education-container">
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">Master of Science</div>
+                            <div class="item-date">May. 2024</div>
+                        </div>
+                        <div class="item-subtitle">Yale University</div>
+                        <div class="item-field">Computer Science</div>
+                    </div>
+                    
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">Bachelor of Science</div>
+                            <div class="item-date">May. 2023</div>
+                        </div>
+                        <div class="item-subtitle">Washington University in St. Louis</div>
+                        <div class="item-field">Computer Science, double major in Math</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Work Experience</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="experience-container" id="experience-container">
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Software Development Engineer</div>
+                            <div class="item-date">Jun. 2024 - Present</div>
+                        </div>
+                        <div class="item-subtitle">Byte Dance</div>
+                        <ul class="item-description">
+                            <li>Built and maintained automation testing framework, increasing bug recall by 2% and bug discovery rate by 20%</li>
+                            <li>Overwatched the design and development for the user outreach platform using Golang, increasing CTR by 10%</li>
+                            <li>Supported on-call procedures and organized microservice dependencies, promoting efficient issue locating and feature development process in cross-functional collaboration</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Golang</span>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Software Developer</div>
+                            <div class="item-date">Sept. 2020 - May. 2022</div>
+                        </div>
+                        <div class="item-subtitle">Cyber-Physical Systems Laboratory</div>
+                        <ul class="item-description">
+                            <li>Developed an app for collecting wellness data from lung transplant patients using Django, Java, and Android Studio</li>
+                            <li>Designed an object-oriented codebase, promoting over 70% reuse across multiple app modules</li>
+                            <li>Coordinated daily meetings as a product manager to set semester and weekly goals</li>
+                            <li>Realized securing patient data without internet connection, enhancing data security</li>
+                            <li>Reduced server maintenance by 30% and automated onboarding process by implementing Docker Containers</li>
+                            <li>Accelerated issue diagnosis by implementing an in-app crash report, cutting debugging time significantly</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Django</span>
+                            <span class="technique-tag">Java</span>
+                            <span class="technique-tag">Android Studio</span>
+                            <span class="technique-tag">Docker</span>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Software Engineer Intern</div>
+                            <div class="item-date">Jun. 2021 - Aug. 2021</div>
+                        </div>
+                        <div class="item-subtitle">Beijing Teamsun Technology</div>
+                        <ul class="item-description">
+                            <li>Developed a global mobile template for the Teamsun’s cloud service app using Vue.js</li>
+                            <li>Directed the localization process of the mobile product by rearranging app components and formulating language and style guides, facilitating expansion to 8 additional countries and deployment of new locales</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Vue.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Projects</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="projects-grid" id="projects-container">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Photo Sharing Mobile App</h3>
+                        <p class="project-duration">Jan. 2024 - Apr. 2024</p>
+                        <p class="project-description">Designed and developed an interactive mobile app enabling users to share photos via a map-based interface.</p>
+                        <div class="project-tech">
+                            <span>Golang</span>
+                            <span>React Native</span>
+                            <span>Redis</span>
+                            <span>Amazon S3</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Strategy Action Game</h3>
+                        <p class="project-duration">Sept. 2022 - Jan. 2023</p>
+                        <p class="project-description">Collaborated with a 5-person team to design and develop a first-person strategy action game using Unity and C#.</p>
+                        <div class="project-tech">
+                            <span>Unity</span>
+                            <span>C#</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Outcomes:</h4>
+                            <ul>
+                                <li>Developed essential gameplay elements, such as player controls, weapons, and interactive environments</li>
+                                <li>Designed and programmed AI behavior for enemy characters, enhancing gameplay challenge and immersion</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Buy and Sell Website</h3>
+                        <p class="project-duration">Jun. 2020 - Aug. 2020</p>
+                        <p class="project-description">Led the development of a second-hand e-commerce website using Express, JavaScript, and MongoDB.</p>
+                        <div class="project-tech">
+                            <span>Express</span>
+                            <span>JavaScript</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <h4>Outcomes:</h4>
+                            <ul>
+                                <li>Enhanced website security by implementing user authentication and authorization protocols</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Technical Skills</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fab fa-java"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-swift"></i>
+                                <span>Swift</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>C++</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>Golang</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Frameworks & Libraries</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fab fa-react"></i>
+                                <span>React Native</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-node-js"></i>
+                                <span>NodeJS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-vuejs"></i>
+                                <span>Vue.js</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Tools & Technologies</h3>
+                        <div class="skill-items" id="technical-skills-container">
+                            <div class="skill-item">
+                                <i class="fab fa-docker"></i>
+                                <span>Docker</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-dharmachakra"></i>
+                                <span>Kubernetes</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-git-alt"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>SQL</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>PostgreSQL</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-jenkins"></i>
+                                <span>Jenkins</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-flask"></i>
+                                <span>Flask</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>MATLAB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="teaching">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Teaching Experience</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="teaching-container" id="teaching-container">
+                    <div class="teaching-item">
+                        <div class="item-header">
+                            <div class="item-title">Teaching Assistant</div>
+                        </div>
+                        <div class="item-subtitle">Washington University in St. Louis</div>
+                        <div class="courses-container">
+                            <h4>Courses:</h4>
+                            <ul>
+                                <li>Data Structures and Algorithms</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Contact Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <p>I'm always open to research collaborations and interesting projects. Feel free to reach out!</p>
+                    </div>
+                    <div class="contact-methods">
+                        <a href="mailto:harperchenyeqi@gmail.com" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>harperchenyeqi@gmail.com</span>
+                        </a>
+                        <a href="https://linkedin.com/in/harper-qi-b95726197/" target="_blank" class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/harper-qi-b95726197/</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>© 2025 Harper (Chenye) Qi | Software Developer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/johndoe" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/harper-qi-b95726197/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:harperchenyeqi@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Animate terminal cursor
+        setInterval(() => {
+            const cursors = document.querySelectorAll('.terminal-cursor');
+            cursors.forEach(cursor => {
+                cursor.style.opacity = cursor.style.opacity === '0' ? '1' : '0';
+            });
+        }, 500);
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
